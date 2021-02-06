@@ -23,6 +23,10 @@ class Person  extends Component {
     };
   }
 
+  componentDidMount() {
+    console.log('[Person.js] componentDidMount');
+  }
+
   render() {
     console.log('[Person.js] rendering...');
     return (
